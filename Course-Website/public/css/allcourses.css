@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wdetailght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+.opacity_5
+{
+    opacity: 0.5;
+}
+.container_hg {
+   
+    width: 100%;
+    display: flex;
+    gap:0%;
+    margin-bottom: 90px;
+}
+
+.main-content {
+    width: 71%;
+   
+}
+
+.main-content h3{
+    font-size: 37px;
+    font-family: "Alfa Slab One", sans-serif;
+    font-weight: 400;
+   
+}
+
+.main-content p{
+    font-family: "Roboto", sans-serif;
+    padding-top: 8px;
+    font-weight: 400;
+    line-height: 18.75px;
+    font-size: 17.5px;
+    letter-spacing: 1px;
+}
+.main-content h4{
+    padding-top: 10px;
+    font-family: "Alfa Slab One", sans-serif;
+    font-size: 25px;
+}
+.main-content #chapter{
+    font-size: 14px;
+    padding: 10px 0px
+}
+
+
+/*Slide show*/
+.swiper{
+    margin: 12px 0;
+    width: 90%;
+    border-radius: 8px;
+}
+.wrapper{
+    border-radius: 8px;
+    width: 100%;
+}
+.wrapper, .slide .image{
+    height: 320px;
+    width: 100%;
+}
+.slide .image{
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+
+/* Drop down list */
+.accordion{
+    /* width: 808px; */
+    width: 80%;
+}
+
+.accordion .contentBx .label{
+    position: relative;
+    height: 56px;
+    width: 100%;
+    padding: 0px 22px;
+    background: #BDEBCF;
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    justify-content: space-between;
+    cursor: pointer;
+    margin-top: 6px;
+    
+}
+
+
+.accordion .contentBx .label i{
+    font-size: 24px;
+    margin-right: 10px;
+    transition: 0.4s;
+}
+
+.accordion .contentBx.active .label i {
+    transform: rotate(45deg); 
+    transition: 0.4s;
+}
+
+.icon-title {
+    display: flex;
+    align-items: center;
+  }
+
+.accordion .contentBx .content{
+    display: flex;
+    align-items: center;
+    height: 0;
+    width: 80%;
+    overflow: hidden;
+    background-color: #cef7ddb2;
+    padding-left: 30px;
+    padding-right: 22px;
+    cursor: pointer;
+    justify-content: space-between;
+    border-radius: 8px;
+    transition: 0.5s;
+}
+
+
+.accordion .contentBx .content i{
+    font-size: 24px;
+    padding-right: 10px;
+}
+.accordion .contentBx.active .content{
+    height: 56px;
+    display: flex;
+    align-items: center;
+    transition: 0.4s;
+    margin-top: 4px;
+    width: 100%;
+    
+}
+
+/* right side bar */
+.sidebar-right{
+    height:100%;
+    padding-top: 6%;
+    float: right;
+    
+}
+
+.signup-course{
+    width: 100%;
+    
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    line-height: 2.5;
+}
+.signup-course img{
+    border-radius: 12px;
+    margin-bottom: 10px;
+    
+}
+.signup-course h3{
+    font-family: "Alfa Slab One";
+    font-size: 26px;
+    padding: 20px 0;
+}
+
+.signup-course button{
+    width: 184px;
+    height: 40px;
+    background-color: #4DABE4;
+    border-radius: 12px;
+    outline: none;
+    border: none;
+    color: #fff;
+}
+
+.detail{
+    padding-top: 20px;
+    width: 100%;
+}
+
+.detail ul li{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    line-height: 2.5;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+}
+.detail ul li i{
+    padding-right: 12px;
+    font-size: 24px;
+}
+
+.register-course:hover{
+    background-color: #233574;
+}
+.active-registerBtn{
+    background-color: #398976 !important;
+}

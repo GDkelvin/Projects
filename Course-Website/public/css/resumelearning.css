@@ -1,0 +1,188 @@
+
+
+.maindetail{
+  width: 100%;
+  left: 1%;
+}
+.detail {
+
+    height: 102.4rem;
+    
+    position: relative;
+   
+    display: flex;
+    background-color: #ffffff;
+  }
+  .detail .video {
+      width: 80%;
+      height: 58.3rem;
+      padding-top: 5px;
+      background-color: #ffffff;
+    }
+    .detail .video .vdbaihoc{
+      width: 848.8px;
+      height: 492px;
+      border-radius: 50%;
+    }
+    
+
+    .detail .video .frame_2{
+      margin-top: 22px;
+      margin-bottom: 1.6rem;
+      width: 850px;
+      height: 2rem;
+      display: flex;
+      align-items: center;
+      flex-direction: row;
+      justify-content: center;
+    }
+    .detail .video .frame_2 .btn_previous{
+      justify-content: center;
+      margin-right: 35rem;
+      box-sizing: border-box;
+      padding: 1.5rem 1.3rem 1.1rem 1.2rem;
+      width: 145px;
+      height: 40px;
+      display: flex;
+      align-items: center;
+      background-color: #e0e0e0;
+      border-radius: 1.2rem;
+      flex-shrink: 0;
+      cursor: pointer;
+    }
+   
+    .detail .video .frame_2 .btn_previous .iconLeft {
+      margin: 0rem 1.1rem 0.1rem 0rem;
+      width: 0.6rem;
+      height: 1.2rem;
+      object-fit: contain;
+      vertical-align: top;
+      flex-shrink: 0;
+    }
+    .detail .video .frame_2 .btn_previous .baitruoc {
+      margin-top: 3px;
+      font-weight: 500;
+      line-height: 1.1725;
+      letter-spacing: 0.0175rem;
+      color: #000000;
+      font-family: Roboto, 'Source Sans Pro';
+      white-space: nowrap;
+      flex-shrink: 0;
+      font-size: 18px;
+    }
+ 
+    .detail .video .frame_2 .btn_next {
+      
+      box-sizing: border-box;
+      padding: 1.5rem 0.6rem 1.1rem 0.7rem;
+      width: 145px;
+      height: 40px;
+      display: flex;
+      align-items: center;
+      background-color: #fae5e5;
+      border-radius: 1.2rem;
+      flex-shrink: 0;
+      cursor: pointer;
+      justify-content: center;
+    }
+    .IconRight , .iconLeft , .baitieptheo, .baitruoc
+    {
+      margin-bottom: 8px;
+    }
+    .detail .video .frame_2 .btn_next .baitieptheo {
+      margin-top: 3px;
+      margin-right: 1.6rem;
+      font-size: 18px;
+      font-weight: 500;
+      line-height: 1.1725;
+      letter-spacing: 0.0175rem;
+      color: #5a4db1;
+      font-family: Roboto, 'Source Sans Pro';
+      white-space: nowrap;
+      flex-shrink: 0;
+    }
+    .detail .video .frame_2 .btn_next .IconRight  {
+      margin-bottom: 0.1rem;
+      margin-left: -0.9rem;
+      width: 0.6rem;
+      height: 1.2rem;
+      object-fit: contain;
+      vertical-align: top;
+      flex-shrink: 0;
+      
+    }
+    .detail .video .tenbaihoc {
+      font-size: 2.8rem;
+      font-weight: 400;
+      line-height: 1.3675;
+      letter-spacing: 0.007rem;
+      color: #000000;
+      font-family: Alfa Slab One, 'Source Sans Pro';
+      white-space: nowrap;
+    }
+  
+  /*css phan bai giang*/
+    .accordion{
+      width: 100%;
+      margin-left: 3%;
+     
+  }
+  .detail .accordion .contentBx .label{
+    position: relative;
+    height: 56px;
+    /* width: 350px; */
+    padding: 0px 22px;
+    background: #BDEBCF;
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    justify-content: space-between;
+    cursor: pointer;
+    margin-top: 6px;
+    
+  }
+  
+  .detail .accordion .contentBx .label i{
+    font-size: 24px;
+    margin-right: 10px;
+    transition: 0.4s;
+  }
+  
+  .detail .accordion .contentBx.active .label i {
+    transform: rotate(45deg); 
+    transition: 0.4s;
+  }
+  
+  .detail .icon-title {
+    display: flex;
+    align-items: center;
+  }
+  
+  .detail .accordion .contentBx .content{
+    display: flex;
+    align-items: center;
+    height: 0;
+    /* width: 350px; */
+    overflow: hidden;
+    background-color: #BDEBCFB2;
+    padding-left: 30px;
+    padding-right: 22px;
+    cursor: pointer;
+    justify-content: space-between;
+    border-radius: 8px;
+    transition: 0.5s;
+  }
+  
+  
+  .detail .accordion .contentBx .content i{
+    font-size: 24px;
+    padding-right: 10px;
+  }
+  .detail .accordion .contentBx.active .content{
+    height: 56px;
+    display: flex;
+    align-items: center;
+    transition: 0.4s;
+    margin-top: 4px;
+    
+  }

@@ -1,0 +1,290 @@
+.card{
+    /* background-color: antiquewhite; */
+    font-family: "Roboto", sans-serif;
+    position: relative;
+    border-radius: 13px;
+    
+}
+.card-top{
+    height: 250px;
+    background-image: linear-gradient(135deg, #1A5ABA,#638ED0, #A2BCE3);
+    border-radius: 13px;
+    /* filter: drop-shadow(0px 4px 3px rgba(0, 0, 0, 0.5)); */
+}
+    .label{
+        background-color: white;
+        width: fit-content;
+        padding: 3px 30px;
+        color: #6C6C6C;
+        margin: 3% 3%;
+        font-size: 11px ;
+        font-family: "Roboto", sans-serif;
+        border-radius: 50px;
+        filter: drop-shadow(0px 4px 3px rgba(0, 0, 0, 0.5));
+        /* z-index: 1; */
+    }
+
+    .course-icon{
+        /* background-color: antiquewhite; */
+        width: 110px;
+        height: 110px;
+        margin: 6.5% 35%;
+    }
+.card-body{
+    /* background-color: aquamarine; */
+    padding-left: 1%;
+}
+    .card-subtitle{
+        color: #909090;
+    }
+
+
+
+.top2{
+    position: absolute;
+    background-image: none;
+    background-color: rgba(0, 0, 0, 0.6);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    visibility: visible; 
+    opacity: 0;
+    transition: opacity 0.250s ease-in-out;
+    /* fix later */
+}
+.top2:hover{
+    /* visibility: visible; */
+    opacity: 1;
+}
+
+.top2:hover > .direction{
+    visibility: visible;
+}
+    .direction{
+        height: 25%;
+        width: 80%;
+        position: relative;
+        /* background-color: grey; */
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        gap: 5%;
+        visibility: hidden;
+        transition: visibility 0.250s ease-in-out;
+        margin: 0;
+    }
+        .rec{
+            height: 85%;
+            width: 1%;
+            border-radius: 50px;
+        }
+        .moreInfo{
+            background-color: white;
+            border-radius: 40px;
+            border: none;
+            width: 140px;
+            height: 40px;
+            
+        }
+        .moreInfo:focus{
+            box-shadow: none;
+            outline: none;
+        }
+
+        .option{
+            background-color: white;
+            border-radius: 100%;
+            border: none;
+            width: 30px;
+            height: 30px;
+            color: black;
+            padding: 0;
+            filter: drop-shadow(0px 4px 3px rgba(0, 0, 0, 0.5));
+            box-shadow: none !important;
+        }
+        
+        .active-option{
+            background-color: #33E288;
+            box-shadow: none !important;
+            
+        }
+        .activeIcon-option{
+            color: white !important;
+        }
+        
+        .moreInfo{
+            color: black;
+            font-size: 14px;
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            filter: drop-shadow(0px 4px 3px rgba(0, 0, 0, 0.5));
+            padding-right: 5px;
+            padding-left: 19px;
+        }
+        
+
+        .moreInfo > div{
+            margin-left: 10px;
+        }
+        .moreInfo > i{
+            background-color: #33E288;
+            /* margin-left: 10px; */
+            width: 30px;
+            height: 30px;
+            font-size: 17px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 100%;
+            
+        }
+        /* Thêm đc */
+        .moreInfo:hover{
+            background-color: white !important;
+            color: black !important;
+            animation: mymove 0.55s ease-in-out;
+        }
+        @keyframes mymove {
+            0%   {padding-right: 5px;}
+            50% {padding-right: 14px;}
+            100% {padding-right: 5px;}
+          }
+        .option > i{
+            /* background-color: #1A5ABA; */
+            background-color: transparent;
+            width: 20px;
+            height: 20px;
+            font-size: 17px;
+            font-weight: lighter;
+            margin: 7.5px 0px;
+            color: #000;
+        }
+        .option:hover{
+            background-color: #33E288 !important;
+        }
+
+        .option:hover > i{
+            color: #fff !important;
+        }
+
+        .cart-register > i{
+            width: 19px;
+            height: 19px;
+            font-size: 15px;
+            margin: 7.5px 0.5px;
+        }
+        .progress{
+            background-color: rgb(228, 228, 228);
+            width: 105%;
+            /* filter: drop-shadow(0px 4px 3px rgba(0, 0, 0, 0.4)); */
+        }
+        .progress-bar{
+            background-image: linear-gradient(90deg, #4799E9,#56C6DB, #65F4CD);
+        }
+        
+
+    /* New card */
+    .card-progress{
+        margin-top: 0;
+        margin-bottom: 20px; 
+        margin-left: 5px;
+        height: 180px; 
+        min-width: 500px;
+        width: 500px;
+        font-family: "Roboto", sans-serif;
+        /* padding-right: 50px; */
+        filter: drop-shadow(0px 4px 3px rgba(0, 0, 0, 0.5));
+        border: none;
+    }
+    .card-body-progress{
+        width: 105%;
+        margin-top: 10%;
+    }
+    .course-icon-progress{
+        width: 130px;
+        height: 130px;
+        margin: 12%;
+        margin-top: 15%;
+        margin-bottom: 0;
+    }
+    .progress-mini{
+        width: 85%;
+    }
+
+    .title-progress{
+        display: -webkit-box;
+        -webkit-line-clamp: 1;
+        -webkit-box-orient: vertical;
+        max-height: 24px;
+        max-width: 290px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    .card-progress-hover{
+        position: absolute;
+        top: 0; left: 0;
+        background-color: rgba(0, 0, 0, 0.75);
+        height: 100%;
+        width: 100%;
+        z-index: 1;
+        opacity: 0;
+        transition: opacity 0.150s ease-in-out;
+        cursor: pointer;
+        visibility: visible;
+        border-radius: 13px;
+    }
+    .card-progress-hover:hover{
+        opacity: 1;
+    }
+    
+    .directBtn{
+        background-color: white;
+        border-radius: 100%;
+        border: none;
+        width: 40px;
+        height: 40px;
+        color: black;
+        filter: drop-shadow(0px 4px 3px rgba(0, 0, 0, 0.5));
+        position: absolute;
+        top: 40%;
+        left: 88%;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        /* z-index: 90; */
+    }
+
+    .card-progress-hover:hover > .directBtn{
+        animation: movement 1s ease-in-out infinite;
+    }
+    
+    @keyframes movement {
+        0% , 100% {left: 88%;}
+        50% {left: 85%}
+    }
+
+    .directBtn > i{
+        /* position: relative; */
+        background-color: transparent;
+        width: 20px;
+        height: 20px;
+        font-size: 20px;
+        /* margin: 0% -10%; */
+        color: #000;
+        margin: 0;
+        
+    }
+    .directBtn:hover{
+        background-color: white;
+    }
+.col-md-4{ 
+        margin-bottom: 25px;
+        padding-right: 0;
+        width: 0 !important;
+        padding: 0;
+        
+    }
